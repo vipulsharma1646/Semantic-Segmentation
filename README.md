@@ -1,6 +1,6 @@
-# 🧠 Semantic Segmentation Using SegNet Architecture (Tensor)
+# 🧠 Semantic Segmentation Using SegNet Architecture (TensorFlow)
 
-This project demonstrates a simplified implementation of **semantic segmentation** using a SegNet-style **encoder–decoder convolutional neural network** in **PyTorch**, trained on a **single traffic scene image**. It showcases how pixel-wise classification can be performed using low-level to high-level feature extraction, pooling indices for precise spatial unpooling, and end-to-end learning.
+This project demonstrates a simplified implementation of **semantic segmentation** using a SegNet-style **encoder–decoder convolutional neural network** in **TensorFlow**, trained on a **single traffic scene image**. It showcases how pixel-wise classification can be performed using low-level to high-level feature extraction, pooling indices for precise spatial unpooling, and end-to-end learning.
 
 ---
 
@@ -18,14 +18,14 @@ This project demonstrates a simplified implementation of **semantic segmentation
 - Fully runnable in **Google Colab**
 - Manual image upload support via `files.upload()`
 - Automatic resizing to **256×256**
-- Lightweight training loop using **CrossEntropyLoss**
+- Lightweight training loop using **SparseCategoricalCrossentropy**
 - Segmentation mask output visualization with **matplotlib**
 
 ---
 
 ## 📁 Files
 
-- `segnet_colab.ipynb` – Colab notebook with model code, training, and visualization
+- `segnet_colab.ipynb` – Colab notebook with model code, training, and visualization using TensorFlow
 - `README.md` – Complete project documentation and usage instructions
 
 ---
@@ -41,7 +41,7 @@ This project demonstrates a simplified implementation of **semantic segmentation
 ## 🛠️ Tech Stack
 
 - Python 3
-- PyTorch
+- **TensorFlow**
 - Pillow
 - NumPy
 - Matplotlib
