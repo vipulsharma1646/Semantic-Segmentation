@@ -1,4 +1,4 @@
-# 🧠 Semantic Segmentation Using SegNet Architecture (PyTorch)
+# 🧠 Semantic Segmentation Using SegNet Architecture (Tensor)
 
 This project demonstrates a simplified implementation of **semantic segmentation** using a SegNet-style **encoder–decoder convolutional neural network** in **PyTorch**, trained on a **single traffic scene image**. It showcases how pixel-wise classification can be performed using low-level to high-level feature extraction, pooling indices for precise spatial unpooling, and end-to-end learning.
 
