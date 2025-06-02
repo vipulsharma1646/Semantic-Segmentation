@@ -30,13 +30,7 @@ This project demonstrates a simplified implementation of **semantic segmentation
 
 ---
 
-## 📸 Example Output
 
-| Original Image | Predicted Mask |
-|----------------|----------------|
-| ![Traffic](assets/sample_traffic.jpg) | ![Mask](assets/example_mask.png) |
-
----
 
 ## � Based On
 
